@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* Centered Content */}
       <div className="text-center space-y-6">
-        <div className="flex flex-col items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-3">
           <Image
             src="/inspector-logo.png"
             alt="Inspector"
@@ -18,7 +18,7 @@ export default function Home() {
             className="w-14 h-14 dark:invert"
           />
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-            Inspector Template
+            Inspector Next.js Template
           </h1>
         </div>
         <p className="text-lg text-muted-foreground">
